@@ -50,7 +50,7 @@ IrRemote.onPressEvent(RemoteButton.Left, function () {
     magicbit.Servo(magicbit.Servos.S7, 105)
 })
 IrRemote.onPressEvent(RemoteButton.B, function () {
-    for (let index = 0; index < 4; index++) {
+    for (let index = 0; index < 2; index++) {
         magicbit.Servo(magicbit.Servos.S8, 160)
         basic.pause(1000)
         magicbit.Servo(magicbit.Servos.S8, 60)
